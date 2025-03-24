@@ -1,0 +1,15 @@
+console.log(5 == "5");  // true  (Equal to, type conversion happens)
+console.log(5 === "5"); // false (Strictly equal to, type must match)
+console.log(5 != "5");  // false (Not equal, but type conversion happens)
+console.log(5 !== "5"); // true  (Strictly not equal, different types)
+
+console.log(10 > 5);    // true  (Greater than)
+console.log(10 < 5);    // false (Less than)
+console.log(5 >= 5);    // true  (Greater than or equal to)
+console.log(4 <= 5);    // true  (Less than or equal to)
+
+console.log("10" > 5);  // true  (String "10" is converted to number 10)
+console.log(null == 0); // false (null only equals undefined)
+console.log(null >= 0); // true  (null is converted to 0)
+console.log(undefined == null); // true (special case)
+console.log(undefined === null); // false (strict comparison)
